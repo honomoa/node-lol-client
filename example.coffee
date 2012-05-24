@@ -6,7 +6,7 @@ options =
   region: 'na' # Lol Client region, one of 'na', 'euw' or 'eune'
   username: 'your_leagueoflegends_username' # must be lowercase!
   password: 'your_leagueoflegends_password'
-  version: '1.59.12_05_07_15_09' # LoL Client version - must be "current" or it wont work. This is correct as at 22/05/2012 GMT+8
+  version: '1.60.12_05_22_19_12' # LoL Client version - must be "current" or it wont work. This is correct as at 24/05/2012 GMT+8
 
 summoner = {
   name: 'HotshotGG', # summoners name
