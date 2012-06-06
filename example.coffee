@@ -6,11 +6,11 @@ options =
   region: 'na' # Lol Client region, one of 'na', 'euw' or 'eune'
   username: 'your_leagueoflegends_username' # must be lowercase!
   password: 'your_leagueoflegends_password'
-  version: '1.60.12_05_22_19_12' # LoL Client version - must be "current" or it wont work. This is correct as at 24/05/2012 GMT+8
+  version: '1.60.12_05_23_03_39' # Lol Client version - must be "current" or it wont work. This is correct as at 05/30/2012
 
 summoner = {
   name: 'HotshotGG', # summoners name
-  acctId: 434582, # returned from getSummonerByName and getSummonerById
+  acctId: 434582, # returned from getSummonerByName
   summonerId: 407750 # returned from getSummonerByName
   teamId: "TEAM-a1ebba15-986f-488a-ae2f-e081b2886ba4" # teamIds can be gotten from getTeamsForSummoner
 }
