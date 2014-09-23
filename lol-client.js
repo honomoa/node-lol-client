@@ -63,6 +63,7 @@
         this.options.lqHost = this.option.lqHost;
       }
       this.options.port = this.options.port || 2099;
+      this.options.rejectUnauthorized = false;
       this.options.username = this.options.username;
       this.options.password = this.options.password;
       this.options.version = this.options.version || '3.15.13_12_13_16_07';
@@ -147,7 +148,7 @@
       if (this.options.debug) {
         console.log('Connecting to SSL');
       }
-      stream = tls.connect(this.options.port, this.options.host, function() {
+      stream = tls.connect(this.options, function() {
         return cb(null, stream);
       });
       return stream.on('error', function() {
